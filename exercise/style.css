@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://alura-start-public.s3.amazonaws.com/alura%2B/bg---alura-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+
+div {
+    width: 240px;
+    height: 110px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0 10px;
+    background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
