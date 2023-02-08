@@ -22,7 +22,7 @@ body {
 }
 
 /*Estilos compartilhados*/
-.categories__titulo,
+.categories__title,
 .highlights,
 .eventos__titulo,
 .agenda__titulo {
@@ -367,7 +367,7 @@ img:hover {
         height: 217px;
     }
 
-    .menu__titulo {
+    .menu__title {
         width: auto;
         padding: 40px 55px;
     }
@@ -380,7 +380,7 @@ img:hover {
         padding-left: 15px;
     }
 
-    .menu__pesquisar {
+    .menu__find {
         width: 312px;
     }
 
@@ -391,11 +391,11 @@ img:hover {
     }
 
     /* categories */
-    .categories__lista {
+    .categories__list {
         height: 304px;
     }
 
-    .highlights__barra {
+    .highlights__bar {
         width: 417.96px;
     }
 
@@ -427,12 +427,12 @@ img:hover {
         padding: 0 7.5rem;
     }
 
-    .menu__titulo {
+    .menu__title {
         background-image: url("../img/logo-branco-menor.png");
         padding: 43px 55px;
     }
 
-    .menu__pesquisar {
+    .menu__find {
         width: 384px;
         margin-bottom: 0;
     }
@@ -452,7 +452,7 @@ img:hover {
         margin-bottom: 1.5rem;
     }
 
-    .categories__titulo {
+    .categories__title {
         margin-bottom: 0;
     }
 
@@ -460,7 +460,7 @@ img:hover {
         padding: 0;
     }
 
-    .highlights .highlights__barra {
+    .highlights .highlights__bar {
         width: 416px;
     }
 

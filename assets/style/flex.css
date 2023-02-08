@@ -1,3 +1,5 @@
+
+/* Header */
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -6,19 +8,39 @@
     column-gap: 14px;
 }
 
+/* Categories */
 .categories__list {
     display: flex;
     flex-direction: column;
     row-gap: .5rem ;
 }
 
+.highlights {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.highlights__bar {
+    flex-grow: 1;
+}
+
 @media (min-width: 720px) {
+    /* Header */
     .menu {
         column-gap: 4.625rem;
+    }
+
+    /* Categories */
+    .categories__list {
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
     }
 }
 
 @media (min-width: 1440px) {
+    /* Header */
     .menu {
         column-gap: 6.5rem;
         flex-wrap: nowrap;
