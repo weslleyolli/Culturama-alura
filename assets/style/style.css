@@ -25,7 +25,7 @@ body {
 .categories__title,
 .highlights,
 .events__title,
-.agenda__titulo {
+.agenda__title {
     font-size: 20px;
     text-transform: uppercase;
     font-family: var(--fonte-secundaria);
@@ -255,14 +255,14 @@ img:hover {
 }
 
 .events__button button:hover,
-.agenda__botao button:hover,
+.agenda__button button:hover,
 .events__item button:hover,
-.agenda__atracao button:hover {
+.agenda__attraction button:hover {
     background-color: var(--amarelo);
 }
 
 .events__button button,
-.agenda__botao button {
+.agenda__button button {
     outline: none;
     border: none;
     background-color: black;
@@ -275,7 +275,7 @@ img:hover {
 
 /*Agenda*/
 
-.agenda__titulo {
+.agenda__title {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -288,7 +288,7 @@ img:hover {
     width: 100%;
 }
 
-.agenda__item .agenda__informacoes {
+.agenda__item .agenda__informations {
     text-align: center;
     background-color: var(--cinza-escuro);
     color: white;
@@ -296,27 +296,27 @@ img:hover {
     padding-top: 1rem;
 }
 
-.agenda__informacoes h3 {
+.agenda__informations h3 {
     font-size: 2rem;
 }
 
-.agenda__informacoes h4,
-.agenda__informacoes h5 {
+.agenda__informations h4,
+.agenda__informations h5 {
     font-size: 1.5rem;
 }
 
-.agenda__item .agenda__atracao {
+.agenda__item .agenda__attraction {
     text-align: center;
     padding: 1rem;
 }
 
-.agenda__atracao h6 {
+.agenda__attraction h6 {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 2rem;
 }
 
-.agenda__atracao button {
+.agenda__attraction button {
     outline: none;
     border: none;
     background-color: black;
@@ -344,7 +344,7 @@ img:hover {
     width: 135px;
 }
 
-.rodape__titulo {
+.rodape__title {
     font-size: 18px;
     font-family: var(--fonte-secundaria);
 }
