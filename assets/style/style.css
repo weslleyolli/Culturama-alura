@@ -70,7 +70,7 @@ img:hover {
     color: var(--amarelo);
 }
 
-.menu__pesquisar {
+.menu__find {
     width: 100%;
     height: 40px;
     border: 2px solid white;
