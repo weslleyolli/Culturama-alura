@@ -24,7 +24,7 @@ body {
 /*Estilos compartilhados*/
 .categories__title,
 .highlights,
-.eventos__titulo,
+.events__title,
 .agenda__titulo {
     font-size: 20px;
     text-transform: uppercase;
@@ -195,7 +195,7 @@ img:hover {
 
 .categories__imagem {
     margin-bottom: 1.5rem;
-    background-image: url("../img/highlights-360.png");
+    background-image: url("../img/destaques-360.png");
     background-repeat: no-repeat;
     height: 271px;
     background-size: cover;
@@ -208,40 +208,40 @@ img:hover {
     opacity: 0.7;
 }
 
-/* Eventos */
+/* events */
 
-.eventos__titulo {
+.events__title {
     margin-bottom: 1rem;
 }
 
-.eventos__item {
+.events__item {
     background-color: var(--cinza-claro);
     width: 307px;
     padding-bottom: 1rem;
     height: 318px;
 }
 
-.eventos__item img {
+.events__item img {
     width: 100%;
 }
 
-.eventos__item h3 {
+.events__item h3 {
     font-size: 18px;
     font-weight: 600;
 }
 
-.eventos__item h4,
-.eventos__item h5 {
+.events__item h4,
+.events__item h5 {
     font-size: 16px;
 }
 
-.eventos__item h3,
-.eventos__item h4,
-.eventos__item h5 {
+.events__item h3,
+.events__item h4,
+.events__item h5 {
     padding-left: 1rem;
 }
 
-.eventos__item button {
+.events__item button {
     outline: none;
     border: none;
     background-color: black;
@@ -254,14 +254,14 @@ img:hover {
     transition: .5s;
 }
 
-.eventos__botao button:hover,
+.events__button button:hover,
 .agenda__botao button:hover,
-.eventos__item button:hover,
+.events__item button:hover,
 .agenda__atracao button:hover {
     background-color: var(--amarelo);
 }
 
-.eventos__botao button,
+.events__button button,
 .agenda__botao button {
     outline: none;
     border: none;
@@ -470,9 +470,9 @@ img:hover {
         background-position-y: bottom;
     }
 
-    /*Eventos*/
+    /*events*/
 
-    .eventos__item {
+    .events__item {
         width: 280px;
     }
 
