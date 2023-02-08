@@ -1,0 +1,6 @@
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 33px;
+}
