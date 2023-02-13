@@ -12,6 +12,15 @@
     grid-row: 2/4;
 }
 
+.events__item {
+    display: grid;
+    grid-template-areas: 
+        "image image"
+        "name name"
+        "date date"
+        "locale button";
+}
+
 @media (min-width: 720px) {
 
     .banner {
