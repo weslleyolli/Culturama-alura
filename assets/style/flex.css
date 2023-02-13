@@ -50,6 +50,16 @@
     flex-grow: 1;
 }
 
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    align-self: end;
+}
+
 @media (min-width: 720px) {
     /* Header */
     .menu {
@@ -98,4 +108,5 @@
     .menu__item:nth-child(5) {
         order: 2;
     }
+
 }

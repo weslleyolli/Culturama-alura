@@ -14,6 +14,8 @@
 
 .events__item {
     display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2, 1fr) auto;
     grid-template-areas: 
         "image image"
         "name name"
@@ -27,6 +29,7 @@
 
 .events__item h3 {
     grid-area: name;
+    align-self: center;
 }
 
 .events__item h4 {
@@ -35,11 +38,23 @@
 
 .events__item h5 {
     grid-area: locale;
+    align-self: flex-end;
 }
 
 .events__item button {
     grid-area: button;
 }
+
+.agenda__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+}
+
+.agenda__item img {
+    grid-column: 1/3;
+}
+
 
 @media (min-width: 720px) {
 
@@ -56,5 +71,36 @@
     .banner img:nth-child(4) {
         grid-column: 3/4;
         grid-row: 1/3;
+    }
+}
+
+@media (min-width: 1440px) {
+    .categories {
+        display: grid;
+        grid-template-areas:
+            "title title"
+            "list highlights"
+            "list image";
+        row-gap: 1rem;
+        column-gap: 1.5rem;
+        grid-template-columns: calc(50% - 0.75rem);
+        grid-template-rows: auto 1fr auto;
+
+    }
+
+    .categories__title {
+        grid-area: title;
+    }
+    
+    .categories__list {
+        grid-area: list;
+     }
+    
+    .categories__highlights {
+        grid-area: highlights;
+    }
+    
+    .categories__image {
+        grid-area: image;
     }
 }

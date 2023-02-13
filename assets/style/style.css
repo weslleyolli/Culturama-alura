@@ -329,7 +329,7 @@ img:hover {
 
 /* Footer */
 
-.rodape {
+.footer {
     color: var(--cinza-claro);
     background-color: black;
     margin: 1rem 0;
@@ -340,21 +340,22 @@ img:hover {
     white-space: nowrap;
 }
 
-.rodape__lista {
+.footer__list {
     width: 135px;
 }
 
-.rodape__title {
+.footer__title {
     font-size: 18px;
     font-family: var(--fonte-secundaria);
 }
 
-.rodape__logo {
+.footer__logo {
     font-size: 12px;
+    align-self: center;
 }
 
-.rodape__logo h4 {
-    background-image: url("../img/logo_rodape.png");
+.footer__logo h4 {
+    background-image: url("../img/logo_footer.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 60px;
@@ -411,7 +412,7 @@ img:hover {
 
     /* Rodapé */ 
 
-    .rodape {
+    .footer {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }
@@ -484,7 +485,7 @@ img:hover {
 
     /* Rodapé */
 
-    .rodape {
+    .footer {
         padding-left: 7.5rem;
         padding-right: 7.5rem;
     }
