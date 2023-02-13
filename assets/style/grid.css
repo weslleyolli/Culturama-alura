@@ -21,6 +21,26 @@
         "locale button";
 }
 
+.events__item img {
+    grid-area: image;
+}
+
+.events__item h3 {
+    grid-area: name;
+}
+
+.events__item h4 {
+    grid-area: date;
+}
+
+.events__item h5 {
+    grid-area: locale;
+}
+
+.events__item button {
+    grid-area: button;
+}
+
 @media (min-width: 720px) {
 
     .banner {
